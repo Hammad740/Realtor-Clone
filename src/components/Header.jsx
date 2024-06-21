@@ -9,7 +9,7 @@ const Header = () => {
   }
 
   return (
-    <div className="bg-white border-b-2 shadow-sm sticky top-0 z-10">
+    <div className="bg-white border-b-2 border-b-white shadow-md sticky top-0 z-10">
       <header className="flex justify-between items-center px-4 max-w-6xl mx-auto ">
         <div>
           <img
@@ -20,7 +20,7 @@ const Header = () => {
           />
         </div>
         <div>
-          <ul className="flex items-center justify-between space-x-10">
+          <ul className="flex items-center justify-between space-x-5 md:space-x-10 ">
             <li
               onClick={() => navigate('/')}
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
